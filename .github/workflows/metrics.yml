@@ -26,6 +26,15 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: no
           config_timezone: America/Vancouver
+      - name: Comment reactions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.reactions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 200
+          plugin_reactions_details: percentage
       - name: Most Used Languages
         uses: lowlighter/metrics@latest
         with:
