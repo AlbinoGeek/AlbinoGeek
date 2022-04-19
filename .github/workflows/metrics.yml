@@ -26,4 +26,4 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_trim: yes
           plugin_habits_charts_type: chartist
-          config_timezone: Europe/Paris
+          config_timezone: America/Vancouver
