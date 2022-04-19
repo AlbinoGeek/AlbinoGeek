@@ -15,7 +15,7 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_ignore: >-
-            gister, chatter, stargazer, follower, automator
+            gister, forker, chatter, stargazer, follower, deployer, automator
       - name: Midly interesting facts
         uses: lowlighter/metrics@latest
         with:
