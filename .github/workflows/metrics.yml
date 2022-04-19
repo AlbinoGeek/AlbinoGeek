@@ -14,6 +14,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
+          plugin_achievements_ignored: 'gister,chatter,stargazer,follower,automator'
       - name: Midly interesting facts
         uses: lowlighter/metrics@latest
         with:
