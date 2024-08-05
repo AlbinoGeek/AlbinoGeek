@@ -52,7 +52,7 @@ jobs:
           repositories_affiliations: >-
             owner, collaborator
           plugin_languages: yes
-          plugin_languages_ignored: yaml
+          plugin_languages_ignored: yaml, unity3d, gosum, gopkg, gomod, dotenv
           plugin_languages_limit: 0
           plugin_languages_other: no
           plugin_languages_sections: most-used
