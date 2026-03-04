@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Achievements
-        uses: lowlighter/metrics@latest
+        uses: gh-metrics/metrics@latest
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -19,7 +19,7 @@ jobs:
           plugin_achievements_ignored: >-
             gister, forker, stargazer, follower, automator, reviewer
       - name: Midly interesting facts
-        uses: lowlighter/metrics@latest
+        uses: gh-metrics/metrics@latest
         with:
           filename: metrics.plugin.habits.facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -33,7 +33,7 @@ jobs:
           plugin_habits_charts: no
           config_timezone: America/Vancouver
       - name: Comment reactions
-        uses: lowlighter/metrics@latest
+        uses: gh-metrics/metrics@latest
         with:
           filename: metrics.plugin.reactions.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -44,7 +44,7 @@ jobs:
           plugin_reactions_limit: 200
           plugin_reactions_details: percentage
       - name: Most Used Languages
-        uses: lowlighter/metrics@latest
+        uses: gh-metrics/metrics@latest
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
