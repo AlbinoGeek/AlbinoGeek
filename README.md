@@ -6,10 +6,9 @@
 [![metrics](https://img.shields.io/badge/metrics-lowlighter%2Fmetrics-0969DA?logo=github)](https://github.com/lowlighter/metrics)
 
 </div>
-
 ---
 
-GitHub profile README for [@AlbinoGeek](https://github.com/AlbinoGeek). SVG cards summarize contribution habits, languages, comment reactions, and achievements. Cards refresh on a daily schedule and on pushes to `main`.
+GitHub profile README for [@AlbinoGeek](https://github.com/AlbinoGeek). SVG cards for habits, languages, reactions, and achievements; refresh daily and on push to `main`.
 
 ## Quick start
 
@@ -17,14 +16,14 @@ GitHub profile README for [@AlbinoGeek](https://github.com/AlbinoGeek). SVG card
 open https://github.com/AlbinoGeek
 ```
 
-This profile dossier has no HUMANS-tier runbook — the metrics grid below is the live surface.
+No HUMANS runbook — metrics grid below is the live surface.
 
 ## Highlights
 
-- Contribution habit facts and streaks (30-day window)
-- Language breakdown with byte and line stats
-- Comment reaction mix across recent activity
-- GitHub achievement badges (filtered to substantive categories)
+- Habit facts and streaks (30-day window)
+- Language breakdown (bytes and lines)
+- Comment reaction mix
+- Achievement badges (substantive categories only)
 
 ## Documentation
 
@@ -53,4 +52,4 @@ This profile dossier has no HUMANS-tier runbook — the metrics grid below is th
 
 ## License
 
-Profile README content © Damon Blais. Metrics SVGs are generated artifacts; see [lowlighter/metrics](https://github.com/lowlighter/metrics) for upstream licensing.
+Profile README © Damon Blais. Metrics SVGs are generated; see [lowlighter/metrics](https://github.com/lowlighter/metrics) for upstream licensing.
