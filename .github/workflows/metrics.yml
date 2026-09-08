@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Achievements
-        uses: gh-metrics/metrics@master
+        uses: gh-metrics/metrics@b594ca3c0c5f4312f9674afb91ca8d7619f9c77d # master @ 2026-09-07
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -21,7 +21,7 @@ jobs:
           plugin_achievements_ignored: >-
             gister, forker, stargazer, follower, automator, reviewer
       - name: Midly interesting facts
-        uses: gh-metrics/metrics@master
+        uses: gh-metrics/metrics@b594ca3c0c5f4312f9674afb91ca8d7619f9c77d # master @ 2026-09-07
         with:
           filename: metrics.plugin.habits.facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -35,7 +35,7 @@ jobs:
           plugin_habits_charts: no
           config_timezone: America/Vancouver
       - name: Comment reactions
-        uses: gh-metrics/metrics@master
+        uses: gh-metrics/metrics@b594ca3c0c5f4312f9674afb91ca8d7619f9c77d # master @ 2026-09-07
         with:
           filename: metrics.plugin.reactions.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -46,7 +46,7 @@ jobs:
           plugin_reactions_limit: 200
           plugin_reactions_details: percentage
       - name: Most Used Languages
-        uses: gh-metrics/metrics@master
+        uses: gh-metrics/metrics@b594ca3c0c5f4312f9674afb91ca8d7619f9c77d # master @ 2026-09-07
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
