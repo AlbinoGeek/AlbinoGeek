@@ -15,7 +15,7 @@ to survive constraint.
 
 ### Now
 
-- **CTO, Rethunk.AI** — principal architect of Bastion and IRONLAW: governance doctrine and command-and-control for agent operations.
+- **CTO, Rethunk.Tech** — principal architect of Bastion and IRONLAW, the Rethunk.AI product line: governance doctrine and command-and-control for agent operations.
 - **Principal Software Architect, PeleOs Technologies** — the software half of an orthopedic rehabilitation program, alongside clinicians and hardware engineers.
 - **Director, Albino Geek Services Ltd.** — Canadian limited company, since 2012.
 
