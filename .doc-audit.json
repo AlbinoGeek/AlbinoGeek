@@ -2,7 +2,13 @@
   "skip": [
     "humans-missing",
     "agents-missing",
-    "readme-no-tier-links"
+    "readme-no-tier-links",
+    "readme-title-not-centered",
+    "readme-no-separator",
+    "readme-no-quick-start",
+    "readme-no-highlights",
+    "readme-no-docs-table",
+    "readme-no-license-footer"
   ],
-  "_comment": "Dossier repo — HUMANS/AGENTS tiers do not apply."
+  "_comment": "Personal GitHub profile README, not a software project. The 7-part project-README spec and the HUMANS/AGENTS tier split do not apply here; copy derives from Rethunk-Tech/internal Personel/damon-blais."
 }
