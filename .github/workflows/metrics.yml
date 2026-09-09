@@ -3,11 +3,17 @@ on:
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["main"]}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Achievements
         uses: gh-metrics/metrics@b594ca3c0c5f4312f9674afb91ca8d7619f9c77d # master @ 2026-09-07
