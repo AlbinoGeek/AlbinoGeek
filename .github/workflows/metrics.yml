@@ -1,8 +1,9 @@
+# Automatic triggers (schedule, push) disabled: METRICS_TOKEN is rejected
+# with "Bad credentials" (expired/revoked PAT). Rotate the secret, then
+# restore the schedule and push triggers.
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
-  push: {branches: ["main"]}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
