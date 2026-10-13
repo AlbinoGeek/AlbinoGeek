@@ -2,29 +2,43 @@
 
 # Damon Blais &nbsp;·&nbsp; [@AlbinoGeek](https://github.com/AlbinoGeek)
 
-**CTO and principal architect &nbsp;·&nbsp; 90% blind albino technologist &nbsp;·&nbsp; Surrey, British Columbia**
+**Principal software architect who writes the code &nbsp;·&nbsp; 90% blind albino technologist &nbsp;·&nbsp; Surrey, British Columbia**
 
-Over twenty years across product, platform, developer tooling, web systems, and
-governed AI operations — mostly Go and TypeScript, and the distributed systems
-underneath both. Self-taught.
+Twenty years of programming, mostly Go and TypeScript on PostgreSQL, and the
+distributed systems underneath them. I design a system, build it, and stay with
+it through tests, CI and deploys. Self-taught.
+
+Open to senior, staff and principal roles, remote from Canada.
 
 Low vision is not a footnote here, it is working discipline: when the evidence is
 insufficient, hold; when the tooling is inadequate, build better tooling. In
 practice that reads as accessibility-forward product judgment and workflows built
 to survive constraint.
 
+### What I build
+
+- **Services and data.** Go services over gRPC with mutual TLS, PostgreSQL schemas with row-level security proven by tests, job queues, replication and migrations.
+- **Full-stack products.** React and Next.js in TypeScript, from the database schema to the interface, taken from zero to one as the sole developer.
+- **Developer and AI tooling.** Tools that hold AI coding agents and people to the same test, lint and review gates, and local model infrastructure.
+
+### In the open
+
+- [rgit](https://github.com/Rethunk-Tech/rethunk-git-cli): commits a single function, method or type, in Go, using tree-sitter grammars cross-checked by language servers.
+- [gate](https://github.com/Rethunk-Tech/rethunk-gate-cli): runs a project's test, lint, typecheck and build gates concurrently and passes the exit status through.
+- [engined](https://github.com/Rethunk-Tech/engined): serves every local inference engine on one machine behind one OpenAI-compatible endpoint.
+- [bakeoff](https://github.com/Rethunk-AI/bakeoff): benchmarks local LLMs head to head on quality, latency and cost.
+- [Mortar](https://github.com/Rethunk-Tech/mortar): a desktop mod manager for PC games.
+- Contributor to the [Fyne](https://github.com/fyne-io/fyne) Go GUI toolkit.
+
 ### Now
 
-- **CTO, Rethunk.Tech** — principal architect of Bastion and IRONLAW, the Rethunk.AI product line: governance doctrine and command-and-control for agent operations.
-- **Principal Software Architect, PeleOs Technologies** — the software half of an orthopedic rehabilitation program, alongside clinicians and hardware engineers.
-- **Director, Albino Geek Services Ltd.** — Canadian limited company, since 2012.
+- **Rethunk.Tech**, Co-Founder and CTO. A hands-on role: architect of Bastion and IRONLAW, the Rethunk.AI product line for governing what AI agents do, and sole developer of Rethunk's current public product software and web systems, working alongside company leadership on strategy and go-to-market.
+- **PeleOs Technologies**, Principal Software Architect. The software half of an orthopedic rehabilitation program, alongside clinicians and hardware engineers.
+- **Albino Geek Services Ltd.**, Director. Canadian limited company, since 2012.
 
 ### Learning
 
-Two languages in active study since 2026. English remains the only fluent one.
-
-- **日本語** — Japanese
-- **Deutsch** — German
+Japanese (日本語) and German (Deutsch), in active study since 2026. English remains the only fluent one.
 
 ### Elsewhere
 
